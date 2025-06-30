@@ -1,15 +1,24 @@
 # pip install -r requirements.txt
 
 git+https://github.com/ultralytics/yolov5.git
+# If you encounter any issues installing via pip,
+# try installing directly by cloning the repository from GitHub:
+# git clone https://github.com/ultralytics/yolov5.git
 
+matplotlib
+numpy
+opencv-python
+Pillow
+PyYAML
+requests
+scipy
 torch
 torchvision
-opencv-python
-numpy
-scipy
-PyYAML
-easydict
-psutil
-streamlit
 tqdm
-Pillow
+tensorboard
+pandas
+seaborn
+thop 
+streamlit
+psutil
+easydict
