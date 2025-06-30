@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 Download models from [Google Drive](https://drive.google.com/drive/folders/1vaO-CN56M2cj_AeNe5R-ZRK0PNIO289n?usp=sharing) and place it in the `weights/` folder.
 
-### ✅ Place in `weights/` folder:
+### Place in `weights/` folder:
 
 - `weights/yolov5s_best_200_fixed.pt` → YOLOv5 object detector
 - `weights/resnet101_3.pt` → ResNet101 classifier
@@ -57,7 +57,7 @@ Dispatch-Monitoring-System/
     └── resnet101_3.pt
 ```
 
-### ✅ Place in DeepSORT checkpoint folder:
+### Place in DeepSORT checkpoint folder:
 
 - `ckpt.t7` → place in:
 
