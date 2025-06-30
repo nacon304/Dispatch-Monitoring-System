@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/EatLab_Project/AU/Dataset/Detection/train/images
+val: /content/drive/MyDrive/EatLab_Project/AU/Dataset/Detection/val/images
+
+nc: 2
+names: ["dish", "tray"]

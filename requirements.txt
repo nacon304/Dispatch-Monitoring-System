@@ -1,0 +1,27 @@
+# pip install -r requirements.txt
+
+# Base ----------------------------------------
+matplotlib
+numpy
+opencv-python
+Pillow
+PyYAML
+requests
+scipy
+torch
+torchvision
+tqdm
+
+# Logging -------------------------------------
+tensorboard
+
+# Plotting ------------------------------------
+pandas
+seaborn
+
+thop 
+
+# Extras -----------
+streamlit
+psutil
+easydict
