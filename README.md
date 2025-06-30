@@ -67,6 +67,8 @@ deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7
 
 ## ▶️ Run the System
 
+### 🐳 Option 1: Run with Docker
+
 1. **Download the Docker image**  
    [📦 Download `dispatch-monitoring-system.tar` from Google Drive](https://drive.google.com/drive/folders/1s9IpOeQ3Dfv9G7xYQPSWZJC9yLCzM7cP?usp=sharing)
 
