@@ -50,11 +50,23 @@ Ensure your trained models are placed in the `weights/` folder:
 
 ## ▶️ Run the System
 
+### 🐳 Option 1: Run with Docker
+
 ```bash
 docker-compose up --build
 ```
 
 The app will process the input video and display annotated results.
+
+---
+
+### 💻 Option 2: Run Locally with Streamlit
+
+Run the app with:
+
+```bash
+streamlit run app.py
+```
 
 ---
 
