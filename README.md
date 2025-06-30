@@ -41,10 +41,27 @@ cd Dispatch-Monitoring-System
 
 Download models from [Google Drive](https://drive.google.com/drive/folders/1vaO-CN56M2cj_AeNe5R-ZRK0PNIO289n?usp=sharing) and place it in the `weights/` folder.
 
-Ensure your trained models are placed in the `weights/` folder:
+### ✅ Place in `weights/` folder:
 
-- `weights/yolov5s_best_200_fixed.pt`
-- `weights/resnet101_3.pt`
+- `weights/yolov5s_best_200_fixed.pt` → YOLOv5 object detector
+- `weights/resnet101_3.pt` → ResNet101 classifier
+
+```
+Dispatch-Monitoring-System/
+├── weights/
+│   ├── yolov5s_best_200_fixed.pt
+│   └── resnet101_3.pt
+```
+
+### ✅ Place in DeepSORT checkpoint folder:
+
+- `ckpt.t7` → place in:
+
+```
+deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7
+```
+
+> This file is required by DeepSORT for object re-identification.
 
 ---
 
