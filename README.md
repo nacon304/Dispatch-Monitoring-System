@@ -71,7 +71,7 @@ deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7
 
 ## ▶️ Run the System
 
-### 🐳 Option 1: Run with Docker
+### Option 1: Run with Docker
 
 1. **Download the Docker image**  
    Download `dispatch-monitoring-system.tar` from [Google Drive](https://drive.google.com/drive/folders/1s9IpOeQ3Dfv9G7xYQPSWZJC9yLCzM7cP?usp=sharing)
@@ -87,7 +87,7 @@ deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7
    docker run --rm -p 8501:8501 dispatch-monitoring-system
    ```
 
-### 💻 Option 2: Run Locally with Streamlit
+### Option 2: Run Locally with Streamlit
 
 Run the app with:
 
