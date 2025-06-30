@@ -37,6 +37,10 @@ Here is an example of the system in action:
 ```bash
 git clone https://github.com/nacon304/Dispatch-Monitoring-System.git
 cd Dispatch-Monitoring-System
+
+git clone https://github.com/ultralytics/yolov5.git
+
+pip install -r requirements.txt
 ```
 
 Download models from [Google Drive](https://drive.google.com/drive/folders/1vaO-CN56M2cj_AeNe5R-ZRK0PNIO289n?usp=sharing) and place it in the `weights/` folder.
