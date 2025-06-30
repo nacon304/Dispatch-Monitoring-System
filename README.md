@@ -49,8 +49,8 @@ Download models from [Google Drive](https://drive.google.com/drive/folders/1vaO-
 ```
 Dispatch-Monitoring-System/
 ├── weights/
-│   ├── yolov5s_best_200_fixed.pt
-│   └── resnet101_3.pt
+    ├── yolov5s_best_200_fixed.pt
+    └── resnet101_3.pt
 ```
 
 ### ✅ Place in DeepSORT checkpoint folder:
