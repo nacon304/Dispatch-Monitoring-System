@@ -67,15 +67,19 @@ deep_sort_pytorch/deep_sort/deep/checkpoint/ckpt.t7
 
 ## ▶️ Run the System
 
-### 🐳 Option 1: Run with Docker
+1. **Download the Docker image**  
+   [📦 Download `dispatch-monitoring-system.tar` from Google Drive](https://drive.google.com/drive/folders/1s9IpOeQ3Dfv9G7xYQPSWZJC9yLCzM7cP?usp=sharing)
 
-```bash
-docker-compose up --build
-```
+2. **Load the Docker image**
 
-The app will process the input video and display annotated results.
+   ```bash
+   docker load -i dispatch-monitoring-system.tar
+   ```
 
----
+3. **Run the container**
+   ```bash
+   docker run --rm -p 8501:8501 dispatch-monitoring-system
+   ```
 
 ### 💻 Option 2: Run Locally with Streamlit
 
