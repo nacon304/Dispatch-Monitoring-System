@@ -39,7 +39,7 @@ git clone https://github.com/nacon304/Dispatch-Monitoring-System.git
 cd Dispatch-Monitoring-System
 ```
 
-Download pre-trained ResNet101 model from [Google Drive](https://drive.google.com/drive/folders/1vaO-CN56M2cj_AeNe5R-ZRK0PNIO289n?usp=sharing) and place it in the `weights/` folder.
+Download models from [Google Drive](https://drive.google.com/drive/folders/1vaO-CN56M2cj_AeNe5R-ZRK0PNIO289n?usp=sharing) and place it in the `weights/` folder.
 
 Ensure your trained models are placed in the `weights/` folder:
 
