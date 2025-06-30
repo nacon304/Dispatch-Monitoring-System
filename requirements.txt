@@ -1,27 +1,15 @@
 # pip install -r requirements.txt
 
-# Base ----------------------------------------
-matplotlib
-numpy
-opencv-python
-Pillow
-PyYAML
-requests
-scipy
+git+https://github.com/ultralytics/yolov5.git
+
 torch
 torchvision
-tqdm
-
-# Logging -------------------------------------
-tensorboard
-
-# Plotting ------------------------------------
-pandas
-seaborn
-
-thop 
-
-# Extras -----------
-streamlit
-psutil
+opencv-python
+numpy
+scipy
+PyYAML
 easydict
+psutil
+streamlit
+tqdm
+Pillow
